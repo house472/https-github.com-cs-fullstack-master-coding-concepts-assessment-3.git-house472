@@ -23,6 +23,8 @@ You will create a bank account applcation that will let you create bank accounts
 
 - Create a test case for each endpoint in Postman and export/include completed test cases in this repo
 
+- Starter builerplate code has been provided in this repo for `index.js` that contains code for initial server setup. Copy and paste into your `index.js` and update appropriately
+
 ## Frontend React Application
 - Create a react application called `client`
 - Create at minimum 4 components:
