@@ -17,6 +17,7 @@ You will create a bank account applcation that will let you create bank accounts
 
 - Should have at least one Mongoose Model for `BankAccountSchema`:
   - `accountNumber` - Unique number
+  - `accountType` - String that specifies `Checking` or `Savings`
   - `accountName` - String
   - `accountBalance` - Number
   - `{timestamps: true}`
@@ -65,11 +66,17 @@ Layout
 Git
 - Commit and push your changes no less than *once per hour*
 
-----------------------------------------------------------------------------------------------------
 Take some time at start to do some pre-thinking and design. At *minimum* you should have a basic wireframe drawn up (*ADD A PICTURE OF DESIGN TO REPO*)
-
+----------------------------------------------------------------------------------------------------
 If you need clarification of requirements *ASK EARLY*. Do not wait until right before it is due
 
 Read errors *CAREFULLY* when solving issues as Code School staff cannot help with bugs in your code
 
 Take your time. Code a little, test a little, and Good Luck!
+
+----------------------------------------------------------------------------------------------------
+### Challenges
+- Modify `account` component so you can specify a specific dollar amount to deposit or withdraw
+- Add the ability to modify an account's details 
+- Add the ability to delete an account
+- Improve the styling and overall look of the application as you see fit
